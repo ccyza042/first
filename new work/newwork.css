@@ -1,0 +1,36 @@
+.topper{
+    align-items: center;
+    text-align: center;
+    color:rgb(23, 23, 24);
+    background-color: white;
+    position: fixed;
+    width: 100%; 
+
+   
+}
+table{
+    background-color: cadetblue;
+    opacity: 90%;
+}
+.text{
+    color: white;
+}
+span{
+    display: block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.top{
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+
+   
+} 
+
+.pictures{
+    margin-left: 13%;
+}

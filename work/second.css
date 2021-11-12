@@ -1,0 +1,48 @@
+
+h4{
+    color: rgb(0, 0, 0);
+}
+.new{
+    background-color: rgb(255, 253, 253);
+}
+*{
+    font-family: sans-serif;
+}
+ input[type=radio]:after {
+    border: 15px solid black;
+ }
+#main{
+    background: rgb(130, 161, 161);
+}
+body{
+    background-image:url(skyscrapper.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.top{
+    border: 1px solid rgb(255, 238, 238); border-bottom: none; border-top: none; border-left: none;
+    float: right;
+}
+td{
+    color: white;
+}
+
+#black{
+    color: white;
+}
+#bottom{
+    background:rgb(67, 57, 161)
+}
+.new{
+    border-radius: 5px;
+}
+#ourservices{
+    color: white;
+}
+#company{
+    color: white;
+}
+
+.new:hover{
+    box-shadow: grey 5px 10px 15px;
+}
