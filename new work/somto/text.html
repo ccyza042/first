@@ -13,13 +13,13 @@
             width: 320px;
             height: 420px;
             background: #000;
-             top: 50%;
-            left: 50%;
-            position: absolute;
-            transform:translate(-50%,-50%) ; 
+             /* top: 50%;
+            left: 50%; */
+            position: static;
+            /* transform:translate(-50%,-50%) ;  */
            
            /* margin-top: 10%;  */
-           box-sizing: content-box;
+           /* box-sizing: content-box; */
 
         }
         .avatar{
@@ -33,7 +33,44 @@
 <body>
     <div class="testing">
         <img src="mymother.jpg" class="avatar" style="width: 80px; height: 90px;">
-
+        
+            
+            <h2>WELCOME TO MY PAGE </h2>
+            <hr>
+            <p>
+                I am clement christian, i specialised in web and  mobile app development. 
+                Below are list of my skill s.
+            </p>
+            <hr>
+            <h3>My skills</h3>
+            <ul style="display: flex; justify-content: space-around;">
+                <li>html</li>
+                <li>css</li>
+                <li>javascript</li>
+                <li>bootstrap</li>
+            </ul>
+            <hr>
+            <h3>Contact me</h3>
+            <p>Fill in the required details</p>
+            <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="fullname" required><br>
+            <label>email:</label><br>
+            <input type="email" required class="outline"><br>
+            <label>Phone:</label><br>
+            <input type="number" required><br>
+            <label>message:</label><br>
+            <textarea rows="0" cols="11"></textarea>
+            <div style="display:flex; justify-content:space-around " id="last" >
+                <input type="submit" style="width: 40%; height: 30px;border-radius: 50px; border: none; ">
+                <input type="reset" style="width: 40%; height: 30px; border: none; border-radius:50px ;">
+    
+            </div>
+            
+    
+            
+        </form>
+        
     </div>
     
 </body>
